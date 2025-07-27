@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 >My Store</h1>
+        <form action="" id="filter-form">
+            <input type="text" placeholder="Search for products..." name="" id="search">
+
+            <select id="category" name="category">
+                <option value="" selected>All Categories</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="women's clothing">Women's Clothing</option>
+                <option value="jewelery">Jewelery</option>
+                <option value="electronics">Electronics</option>
+            </select>
+
+            <input placeholder="Min Price" type="number" id="min-price" name="min-price">
+            <input placeholder="Max Price" type="number" id="max-price" name="max-price">
+
+            <select id="sort" name="sort">
+                <option value="" selected>Sort by</option>
+                <option value="price-low-to-high">Price: Low to High</option>
+                <option value="price-high-to-low">Price: High to Low</option>
+                <option value="rating-high-to-low">Rating: High to Low</option>
+                <option value="rating-low-to-high">Rating: Low to High</option>
+            </select>
+            <div class="apply-br-btn">
+                <button type="submit" id="apply-btn">Apply Filters</button>
+            </div>
+        </form>
+
+        <div class="shoppingCart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-list">
+            </ul>
+            <p>Total Quantity: <span class="totalQ">0</span></p>
+            <p>Total Price: <span class="totalP">$0</span></p>
+        </div>
+    </header>
+
+    <section>
+        <div id="product-list" class="grid">
+        </div>
+    </section>
+
+    <div id="pagination">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
