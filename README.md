@@ -1,6 +1,6 @@
 # 🛍️ Small Ecommerce Web App
 
-A small, responsive ecommerce front-end web application built using HTML, CSS, and JavaScript.  
+A small, ecommerce front-end web application built using HTML, CSS, and JavaScript.  
 It fetches real-time product data from the (https://fakestoreapi.com/products) and allows users to browse, filter, and add products to a virtual shopping cart.
 
 ---
